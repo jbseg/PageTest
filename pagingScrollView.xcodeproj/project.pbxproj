@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		4201468D248951CF0085235E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4201468C248951CF0085235E /* Assets.xcassets */; };
 		42014690248951CF0085235E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4201468F248951CF0085235E /* Preview Assets.xcassets */; };
 		42014693248951CF0085235E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42014691248951CF0085235E /* LaunchScreen.storyboard */; };
+		4201469C248952350085235E /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 4201469B248952350085235E /* Pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4201469C248952350085235E /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +93,9 @@
 			dependencies = (
 			);
 			name = pagingScrollView;
+			packageProductDependencies = (
+				4201469B248952350085235E /* Pages */,
+			);
 			productName = pagingScrollView;
 			productReference = 42014683248951CD0085235E /* pagingScrollView.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 4201467A248951CD0085235E;
+			packageReferences = (
+				4201469A248952350085235E /* XCRemoteSwiftPackageReference "Pages" */,
+			);
 			productRefGroup = 42014684248951CD0085235E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4201469A248952350085235E /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4201469B248952350085235E /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4201469A248952350085235E /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4201467B248951CD0085235E /* Project object */;
 }
