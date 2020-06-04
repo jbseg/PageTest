@@ -14,6 +14,7 @@
 		42014690248951CF0085235E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4201468F248951CF0085235E /* Preview Assets.xcassets */; };
 		42014693248951CF0085235E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42014691248951CF0085235E /* LaunchScreen.storyboard */; };
 		4201469C248952350085235E /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 4201469B248952350085235E /* Pages */; };
+		4201469E248954260085235E /* FullscreenBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4201469D248954260085235E /* FullscreenBackgroundImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4201468F248951CF0085235E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42014692248951CF0085235E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42014694248951CF0085235E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4201469D248954260085235E /* FullscreenBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenBackgroundImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				42014686248951CD0085235E /* AppDelegate.swift */,
 				42014688248951CD0085235E /* SceneDelegate.swift */,
 				4201468A248951CD0085235E /* ContentView.swift */,
+				4201469D248954260085235E /* FullscreenBackgroundImage.swift */,
 				4201468C248951CF0085235E /* Assets.xcassets */,
 				42014691248951CF0085235E /* LaunchScreen.storyboard */,
 				42014694248951CF0085235E /* Info.plist */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4201469E248954260085235E /* FullscreenBackgroundImage.swift in Sources */,
 				42014687248951CD0085235E /* AppDelegate.swift in Sources */,
 				42014689248951CD0085235E /* SceneDelegate.swift in Sources */,
 				4201468B248951CD0085235E /* ContentView.swift in Sources */,

@@ -18,7 +18,9 @@ struct ContentView: View {
              Text("This is Page 2")
              Text("...and this is Page 3")
              Circle() // The 4th page is a Circle
-        }
+        }.background(Color(.black))
+            .foregroundColor(.white)
+            .edgesIgnoringSafeArea(.all)
     }
 }
 
